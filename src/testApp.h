@@ -33,15 +33,23 @@ public:
     
     float squareDistance;
     
-    vector<ofImage> imageList;
-    int imageCounter = 0;
-    
-    deque<ofVec2f> leftHandPrevPositions;
-    deque<ofVec2f> rightHandPrevPositions;
-    
-    deque<ofVec2f> pointsOnLine;
 
-    bool clear = true;
+    
+    ofImage fire;
+    ofImage ice;
+    ofImage energyBall;
+    
+    vector<ofImage> exerciseList;
+    ofImage exercise01;
+    ofImage exercise02;
+    ofImage exercise03;
+    ofImage exercise04;
+    ofImage exercise05;
+    ofImage freestyle;
+    
+    int exerciseCounter = 0;
+    
+
     
 };
 
